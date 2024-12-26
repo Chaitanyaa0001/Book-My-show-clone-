@@ -1,0 +1,405 @@
+
+/*
+rem-fontsize
+em/px-margin/padding
+%/vh/vw-layout
+px/% - border readius
+
+*/
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #F5F5F5;
+}
+header{
+    background-color: white;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+    cursor: pointer;
+
+}
+.nav-bar{
+    height:65px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.left-part{
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    align-items: center;
+}
+.left-part i{
+    font-size: 20px;
+    opacity: 0.6;
+
+}
+.right-part{
+    display: flex;
+    width: 30%;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+.search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.search-bar .search{
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 20px;
+    outline: none;
+    font-size: 1rem;
+}
+.search-bar .i{
+    height: 40px;
+    opacity: 0.6;
+}
+.dropdown select{
+    border: none;
+    height: 40px;
+}
+.right-part button{
+    border: none;
+    background-color: #F84464;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.right-part i{
+    font-size: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+/* 
+navbar2 */
+.header2{
+    border-bottom: 0.2px solid grey;
+    padding: 10px 0;
+}
+.header2 .nav-bar2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.left-part1 ul{
+    display: flex;
+    gap: 10px;
+}
+.right-part2 ul{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* crousar pic */
+section{
+    width: 80%;
+    margin: 0 auto ;
+}
+.hero img{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 50px;
+}
+
+/* recommendation movies */
+
+#recommended-movies{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#recommended-movies h1{
+    padding: 20px 0
+}
+
+.movies .recom-movies{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.movies .recom-movies .box{
+    width: 17%;
+}
+
+.recom-movies img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* banner */
+
+#banner-img{
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* live events */
+
+
+#best-events{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#best-events h2{
+    margin-bottom: 15px;
+}
+
+.event-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ .event-box{
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* premiere */
+
+#premiere-main{
+    background-color: #2B3148;
+    width: 100%;
+}
+
+#premiere-main .container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    width:200px;
+    border-radius: 10px;
+    display: flex;
+}
+#premiere-main .pre-head{
+    display: flex;
+    align-items: center;
+}
+
+#premiere-main .premiere-content{
+    margin: 20px 0;
+}
+
+#premiere-main .pre-head i{
+    font-size: 60px;
+    color: #F84464;
+}
+
+
+
+/* music section  */
+
+#music-studio{
+    width: 80%;
+    margin: 0 auto;
+}
+.music{
+    display: flex;
+    justify-content: space-between;
+}
+.music img{
+    width: 200px;
+    border-radius: 10px;
+}
+#music-studio h1{
+    padding: 50px 0px 20px 0px;
+}
+
+/* outdoor events */
+
+.outdoor-events{
+    width: 80%;
+    margin: 0 auto;
+}
+.outdoor{
+    display: flex;
+    justify-content: space-between;
+}
+.outdoor img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* popular events */
+
+.popular-events{
+    width: 50%;
+    margin: 0 auto;
+}
+.PE{
+    display: flex;
+    justify-content: space-between;
+}
+.PE img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* top games and activities*/
+
+.top-games{
+    width: 80%;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+    border-radius: 15px;
+    width: 200px;
+} 
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #313035;
+    padding: 20px 0px;
+}
+.footer-part{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part button{
+    background-color: #F84464;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* footer2 */
+
+#footer2{
+    width: 100%;
+    background-color: #404043;
+    padding: 40PX 0PX;
+    cursor: pointer;
+}
+.foot2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.FOOT-ICONS i{
+    font-size: 2rem;
+    color: grey;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.icon-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.icon-text h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* footer3 */
+
+#fotter3{
+    background-color: #333338;
+    width: 100%;
+    margin: o auto;
+    border-bottom: 2px solid gray ;
+}
+ul{
+    display: flex;
+}
+.foot3{
+    padding: 40px 0px 30px 100x;
+    margin-left: 10em;
+    cursor: pointer;
+}
+.list-foot{
+    padding:30px;
+}
+.list-foot h5{
+    color: grey;
+    padding-bottom: 0.5em;
+   
+}
+.list-foot ul{
+    color: gray;
+    opacity: 0.8;
+}
+
+/* footer4 */
+
+#fotter4{
+    background-color:#313035 ;
+    width: 100%;
+    margin: 0 auto ;
+    padding: 20px 0px;
+
+}
+.foot4{
+    width: 80%;
+    margin: 0 auto;
+    color: grey;
+    text-align: center;
+}
+.foot4 i{
+    font-size:  3em;
+}
+.foot4 h5{
+    font-size: 1rem;
+}
+
+
